@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>categoryName</key>
+		<string>Animals</string>
+		<key>videos</key>
+		<array>
+			<dict>
+				<key>videoTitle</key>
+				<string>Cows Eating Grass</string>
+				<key>previewImageName</key>
+				<string>cows_eating_grass_preview</string>
+				<key>videoName</key>
+				<string>cows_eating_grass</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Deer Eating Leaves</string>
+				<key>previewImageName</key>
+				<string>deer_eating_leaves_preview</string>
+				<key>videoName</key>
+				<string>deer_eating_leaves</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>City Life</string>
+		<key>videos</key>
+		<array>
+			<dict>
+				<key>videoTitle</key>
+				<string>Bicycle, Cars, &amp; City in Fall</string>
+				<key>previewImageName</key>
+				<string>bicycle_cars_city_fall_preview</string>
+				<key>videoName</key>
+				<string>bicycle_cars_city_fall</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>City View</string>
+				<key>previewImageName</key>
+				<string>city_view_preview</string>
+				<key>videoName</key>
+				<string>city_view</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Sunrise Over a City</string>
+				<key>previewImageName</key>
+				<string>sunrise_over_a_city_preview</string>
+				<key>videoName</key>
+				<string>sunrise_over_a_city</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Timelapse of Stockholm at Night</string>
+				<key>previewImageName</key>
+				<string>timelapse_stockholm_at_night_preview</string>
+				<key>videoName</key>
+				<string>timelapse_stockholm_at_night</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Food</string>
+		<key>videos</key>
+		<array>
+			<dict>
+				<key>videoTitle</key>
+				<string>Baking Cookies</string>
+				<key>previewImageName</key>
+				<string>baking_cookies_preview</string>
+				<key>videoName</key>
+				<string>baking_cookies</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>BBQ Grilling Meat</string>
+				<key>previewImageName</key>
+				<string>bbq_grilling_meat_preview</string>
+				<key>videoName</key>
+				<string>bbq_grilling_meat</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Pot with Steam Cooking</string>
+				<key>previewImageName</key>
+				<string>pot_with_steam_cooking_preview</string>
+				<key>videoName</key>
+				<string>pot_with_steam_cooking</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Nature</string>
+		<key>videos</key>
+		<array>
+			<dict>
+				<key>videoTitle</key>
+				<string>Fishing Boat at Port</string>
+				<key>previewImageName</key>
+				<string>fishing_boat_at_port_preview</string>
+				<key>videoName</key>
+				<string>fishing_boat_at_port</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Motorboat</string>
+				<key>previewImageName</key>
+				<string>motorboat_preview</string>
+				<key>videoName</key>
+				<string>motorboat</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Tourists Looking at Niagra Falls</string>
+				<key>previewImageName</key>
+				<string>tourists_looking_at_niagra_falls_preview</string>
+				<key>videoName</key>
+				<string>tourists_looking_at_niagra_falls</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Water Flowing out of Gutter</string>
+				<key>previewImageName</key>
+				<string>water_flowing_out_of_gutter_preview</string>
+				<key>videoName</key>
+				<string>water_flowing_out_of_gutter</string>
+			</dict>
+			<dict>
+				<key>videoTitle</key>
+				<string>Water &amp; Wet Rocks</string>
+				<key>previewImageName</key>
+				<string>water_wet_rocks_preview</string>
+				<key>videoName</key>
+				<string>water_wet_rocks</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

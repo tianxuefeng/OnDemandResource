@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3550AB721C6BD6AB00C24B2C /* ResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550AB711C6BD6AB00C24B2C /* ResourceManager.swift */; };
+		4215E0B01BC9B640006FF863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4215E0AF1BC9B640006FF863 /* AppDelegate.swift */; };
+		4215E0B21BC9B640006FF863 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4215E0B11BC9B640006FF863 /* VideoListViewController.swift */; };
+		4215E0B51BC9B640006FF863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4215E0B31BC9B640006FF863 /* Main.storyboard */; };
+		4215E0B71BC9B640006FF863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4215E0B61BC9B640006FF863 /* Assets.xcassets */; };
+		4250AAD81BCB84FF00DD2EFE /* cows_eating_grass.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAC71BCB84FF00DD2EFE /* cows_eating_grass.mp4 */; settings = {ASSET_TAGS = (cows_eating_grass, ); }; };
+		4250AAD91BCB84FF00DD2EFE /* deer_eating_leaves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAC81BCB84FF00DD2EFE /* deer_eating_leaves.mp4 */; settings = {ASSET_TAGS = (deer_eating_leaves, ); }; };
+		4250AADA1BCB84FF00DD2EFE /* bicycle_cars_city_fall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AACA1BCB84FF00DD2EFE /* bicycle_cars_city_fall.mp4 */; settings = {ASSET_TAGS = (bicycle_cars_city_fall, ); }; };
+		4250AADB1BCB84FF00DD2EFE /* city_view.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AACB1BCB84FF00DD2EFE /* city_view.mp4 */; settings = {ASSET_TAGS = (city_view, ); }; };
+		4250AADC1BCB84FF00DD2EFE /* sunrise_over_a_city.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AACC1BCB84FF00DD2EFE /* sunrise_over_a_city.mp4 */; settings = {ASSET_TAGS = (sunrise_over_a_city, ); }; };
+		4250AADD1BCB84FF00DD2EFE /* timelapse_stockholm_at_night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AACD1BCB84FF00DD2EFE /* timelapse_stockholm_at_night.mp4 */; settings = {ASSET_TAGS = (timelapse_stockholm_at_night, ); }; };
+		4250AADE1BCB84FF00DD2EFE /* baking_cookies.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AACF1BCB84FF00DD2EFE /* baking_cookies.mp4 */; settings = {ASSET_TAGS = (baking_cookies, ); }; };
+		4250AADF1BCB84FF00DD2EFE /* bbq_grilling_meat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD01BCB84FF00DD2EFE /* bbq_grilling_meat.mp4 */; settings = {ASSET_TAGS = (bbq_grilling_meat, ); }; };
+		4250AAE01BCB84FF00DD2EFE /* pot_with_steam_cooking.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD11BCB84FF00DD2EFE /* pot_with_steam_cooking.mp4 */; settings = {ASSET_TAGS = (pot_with_steam_cooking, ); }; };
+		4250AAE11BCB84FF00DD2EFE /* fishing_boat_at_port.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD31BCB84FF00DD2EFE /* fishing_boat_at_port.mp4 */; settings = {ASSET_TAGS = (fishing_boat_at_port, ); }; };
+		4250AAE21BCB84FF00DD2EFE /* motorboat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD41BCB84FF00DD2EFE /* motorboat.mp4 */; settings = {ASSET_TAGS = (motorboat, ); }; };
+		4250AAE31BCB84FF00DD2EFE /* tourists_looking_at_niagra_falls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD51BCB84FF00DD2EFE /* tourists_looking_at_niagra_falls.mp4 */; settings = {ASSET_TAGS = (tourists_looking_at_niagra_falls, ); }; };
+		4250AAE41BCB84FF00DD2EFE /* water_flowing_out_of_gutter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4250AAD61BCB84FF00DD2EFE /* water_flowing_out_of_gutter.mp4 */; settings = {ASSET_TAGS = (water_flowing_out_of_gutter, ); }; };
+		426FA7401BDF506300F60B05 /* water_wet_rocks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 426FA73F1BDF4F6B00F60B05 /* water_wet_rocks.mp4 */; settings = {ASSET_TAGS = (water_wet_rocks, ); }; };
+		42751AB51BCA2F09003862A8 /* VideoListCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42751AB41BCA2F09003862A8 /* VideoListCollectionViewDataSource.swift */; };
+		42DE2B6D1BCADCEA00048AF1 /* VideosList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42DE2B6C1BCADCEA00048AF1 /* VideosList.plist */; };
+		42DE2B751BCAE16300048AF1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B741BCAE16200048AF1 /* Video.swift */; };
+		42DE2B771BCAE1E600048AF1 /* VideoPlistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B761BCAE1E600048AF1 /* VideoPlistParser.swift */; };
+		42DE2B791BCAE24F00048AF1 /* VideoCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B781BCAE24F00048AF1 /* VideoCategory.swift */; };
+		42DE2B7B1BCAE75100048AF1 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B7A1BCAE75100048AF1 /* VideoCell.swift */; };
+		42DE2B7D1BCAEA5F00048AF1 /* VideoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B7C1BCAEA5F00048AF1 /* VideoHeaderView.swift */; };
+		42DE2B7F1BCAF5EA00048AF1 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE2B7E1BCAF5EA00048AF1 /* PlayVideoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3550AB711C6BD6AB00C24B2C /* ResourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceManager.swift; sourceTree = "<group>"; };
+		4215E0AC1BC9B640006FF863 /* RWHomeTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWHomeTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4215E0AF1BC9B640006FF863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4215E0B11BC9B640006FF863 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		4215E0B41BC9B640006FF863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4215E0B61BC9B640006FF863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4215E0B81BC9B640006FF863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4250AAC71BCB84FF00DD2EFE /* cows_eating_grass.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cows_eating_grass.mp4; sourceTree = "<group>"; };
+		4250AAC81BCB84FF00DD2EFE /* deer_eating_leaves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = deer_eating_leaves.mp4; sourceTree = "<group>"; };
+		4250AACA1BCB84FF00DD2EFE /* bicycle_cars_city_fall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bicycle_cars_city_fall.mp4; sourceTree = "<group>"; };
+		4250AACB1BCB84FF00DD2EFE /* city_view.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = city_view.mp4; sourceTree = "<group>"; };
+		4250AACC1BCB84FF00DD2EFE /* sunrise_over_a_city.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunrise_over_a_city.mp4; sourceTree = "<group>"; };
+		4250AACD1BCB84FF00DD2EFE /* timelapse_stockholm_at_night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = timelapse_stockholm_at_night.mp4; sourceTree = "<group>"; };
+		4250AACF1BCB84FF00DD2EFE /* baking_cookies.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = baking_cookies.mp4; sourceTree = "<group>"; };
+		4250AAD01BCB84FF00DD2EFE /* bbq_grilling_meat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bbq_grilling_meat.mp4; sourceTree = "<group>"; };
+		4250AAD11BCB84FF00DD2EFE /* pot_with_steam_cooking.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pot_with_steam_cooking.mp4; sourceTree = "<group>"; };
+		4250AAD31BCB84FF00DD2EFE /* fishing_boat_at_port.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fishing_boat_at_port.mp4; sourceTree = "<group>"; };
+		4250AAD41BCB84FF00DD2EFE /* motorboat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = motorboat.mp4; sourceTree = "<group>"; };
+		4250AAD51BCB84FF00DD2EFE /* tourists_looking_at_niagra_falls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tourists_looking_at_niagra_falls.mp4; sourceTree = "<group>"; };
+		4250AAD61BCB84FF00DD2EFE /* water_flowing_out_of_gutter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_flowing_out_of_gutter.mp4; sourceTree = "<group>"; };
+		426FA73F1BDF4F6B00F60B05 /* water_wet_rocks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water_wet_rocks.mp4; sourceTree = "<group>"; };
+		42751AB41BCA2F09003862A8 /* VideoListCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		42DE2B6C1BCADCEA00048AF1 /* VideosList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VideosList.plist; sourceTree = "<group>"; };
+		42DE2B741BCAE16200048AF1 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		42DE2B761BCAE1E600048AF1 /* VideoPlistParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlistParser.swift; sourceTree = "<group>"; };
+		42DE2B781BCAE24F00048AF1 /* VideoCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCategory.swift; sourceTree = "<group>"; };
+		42DE2B7A1BCAE75100048AF1 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		42DE2B7C1BCAEA5F00048AF1 /* VideoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHeaderView.swift; sourceTree = "<group>"; };
+		42DE2B7E1BCAF5EA00048AF1 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4215E0A91BC9B640006FF863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4215E0A31BC9B640006FF863 = {
+			isa = PBXGroup;
+			children = (
+				4215E0AE1BC9B640006FF863 /* RWHomeTheater */,
+				4215E0AD1BC9B640006FF863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4215E0AD1BC9B640006FF863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4215E0AC1BC9B640006FF863 /* RWHomeTheater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4215E0AE1BC9B640006FF863 /* RWHomeTheater */ = {
+			isa = PBXGroup;
+			children = (
+				42DE2B6B1BCADC9A00048AF1 /* App Delegate */,
+				42DE2B711BCAE04100048AF1 /* Controllers */,
+				42DE2B731BCAE14F00048AF1 /* Models */,
+				42DE2B6F1BCAE01600048AF1 /* Resources */,
+				42DE2B701BCAE02400048AF1 /* Supporting Files */,
+				42DE2B721BCAE05100048AF1 /* Views */,
+			);
+			path = RWHomeTheater;
+			sourceTree = "<group>";
+		};
+		4250AAC51BCB84FF00DD2EFE /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				4250AAC61BCB84FF00DD2EFE /* Animals */,
+				4250AAC91BCB84FF00DD2EFE /* City */,
+				4250AACE1BCB84FF00DD2EFE /* Food */,
+				4250AAD21BCB84FF00DD2EFE /* Nature */,
+			);
+			name = videos;
+			path = ../../videos;
+			sourceTree = "<group>";
+		};
+		4250AAC61BCB84FF00DD2EFE /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				4250AAC71BCB84FF00DD2EFE /* cows_eating_grass.mp4 */,
+				4250AAC81BCB84FF00DD2EFE /* deer_eating_leaves.mp4 */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		4250AAC91BCB84FF00DD2EFE /* City */ = {
+			isa = PBXGroup;
+			children = (
+				4250AACA1BCB84FF00DD2EFE /* bicycle_cars_city_fall.mp4 */,
+				4250AACB1BCB84FF00DD2EFE /* city_view.mp4 */,
+				4250AACC1BCB84FF00DD2EFE /* sunrise_over_a_city.mp4 */,
+				4250AACD1BCB84FF00DD2EFE /* timelapse_stockholm_at_night.mp4 */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		4250AACE1BCB84FF00DD2EFE /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				4250AACF1BCB84FF00DD2EFE /* baking_cookies.mp4 */,
+				4250AAD01BCB84FF00DD2EFE /* bbq_grilling_meat.mp4 */,
+				4250AAD11BCB84FF00DD2EFE /* pot_with_steam_cooking.mp4 */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		4250AAD21BCB84FF00DD2EFE /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				4250AAD31BCB84FF00DD2EFE /* fishing_boat_at_port.mp4 */,
+				4250AAD41BCB84FF00DD2EFE /* motorboat.mp4 */,
+				4250AAD51BCB84FF00DD2EFE /* tourists_looking_at_niagra_falls.mp4 */,
+				4250AAD61BCB84FF00DD2EFE /* water_flowing_out_of_gutter.mp4 */,
+				426FA73F1BDF4F6B00F60B05 /* water_wet_rocks.mp4 */,
+			);
+			path = Nature;
+			sourceTree = "<group>";
+		};
+		42DE2B6A1BCADC8A00048AF1 /* List Videos */ = {
+			isa = PBXGroup;
+			children = (
+				42751AB41BCA2F09003862A8 /* VideoListCollectionViewDataSource.swift */,
+				4215E0B11BC9B640006FF863 /* VideoListViewController.swift */,
+				42DE2B761BCAE1E600048AF1 /* VideoPlistParser.swift */,
+			);
+			name = "List Videos";
+			sourceTree = "<group>";
+		};
+		42DE2B6B1BCADC9A00048AF1 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4215E0AF1BC9B640006FF863 /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		42DE2B6E1BCADD8E00048AF1 /* Play Video */ = {
+			isa = PBXGroup;
+			children = (
+				42DE2B7E1BCAF5EA00048AF1 /* PlayVideoViewController.swift */,
+			);
+			name = "Play Video";
+			sourceTree = "<group>";
+		};
+		42DE2B6F1BCAE01600048AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4215E0B61BC9B640006FF863 /* Assets.xcassets */,
+				4250AAC51BCB84FF00DD2EFE /* videos */,
+				42DE2B6C1BCADCEA00048AF1 /* VideosList.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42DE2B701BCAE02400048AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4215E0B81BC9B640006FF863 /* Info.plist */,
+				3550AB711C6BD6AB00C24B2C /* ResourceManager.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42DE2B711BCAE04100048AF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42DE2B6A1BCADC8A00048AF1 /* List Videos */,
+				42DE2B6E1BCADD8E00048AF1 /* Play Video */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		42DE2B721BCAE05100048AF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4215E0B31BC9B640006FF863 /* Main.storyboard */,
+				42DE2B7A1BCAE75100048AF1 /* VideoCell.swift */,
+				42DE2B7C1BCAEA5F00048AF1 /* VideoHeaderView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42DE2B731BCAE14F00048AF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42DE2B781BCAE24F00048AF1 /* VideoCategory.swift */,
+				42DE2B741BCAE16200048AF1 /* Video.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4215E0AB1BC9B640006FF863 /* RWHomeTheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4215E0BB1BC9B640006FF863 /* Build configuration list for PBXNativeTarget "RWHomeTheater" */;
+			buildPhases = (
+				4215E0A81BC9B640006FF863 /* Sources */,
+				4215E0A91BC9B640006FF863 /* Frameworks */,
+				4215E0AA1BC9B640006FF863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWHomeTheater;
+			productName = RWHomeTheater;
+			productReference = 4215E0AC1BC9B640006FF863 /* RWHomeTheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4215E0A41BC9B640006FF863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					baking_cookies,
+					bbq_grilling_meat,
+					bicycle_cars_city_fall,
+					city_view,
+					cows_eating_grass,
+					deer_eating_leaves,
+					fishing_boat_at_port,
+					motorboat,
+					pot_with_steam_cooking,
+					sunrise_over_a_city,
+					timelapse_stockholm_at_night,
+					tourists_looking_at_niagra_falls,
+					water_flowing_out_of_gutter,
+					water_wet_rocks,
+				);
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Razeware, LLC";
+				TargetAttributes = {
+					4215E0AB1BC9B640006FF863 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4215E0A71BC9B640006FF863 /* Build configuration list for PBXProject "RWHomeTheater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4215E0A31BC9B640006FF863;
+			productRefGroup = 4215E0AD1BC9B640006FF863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4215E0AB1BC9B640006FF863 /* RWHomeTheater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4215E0AA1BC9B640006FF863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426FA7401BDF506300F60B05 /* water_wet_rocks.mp4 in Resources */,
+				4250AADA1BCB84FF00DD2EFE /* bicycle_cars_city_fall.mp4 in Resources */,
+				4250AAE11BCB84FF00DD2EFE /* fishing_boat_at_port.mp4 in Resources */,
+				4250AAE01BCB84FF00DD2EFE /* pot_with_steam_cooking.mp4 in Resources */,
+				4250AADE1BCB84FF00DD2EFE /* baking_cookies.mp4 in Resources */,
+				4215E0B71BC9B640006FF863 /* Assets.xcassets in Resources */,
+				4250AADC1BCB84FF00DD2EFE /* sunrise_over_a_city.mp4 in Resources */,
+				4250AADD1BCB84FF00DD2EFE /* timelapse_stockholm_at_night.mp4 in Resources */,
+				4250AAD91BCB84FF00DD2EFE /* deer_eating_leaves.mp4 in Resources */,
+				4250AAE31BCB84FF00DD2EFE /* tourists_looking_at_niagra_falls.mp4 in Resources */,
+				4215E0B51BC9B640006FF863 /* Main.storyboard in Resources */,
+				4250AAD81BCB84FF00DD2EFE /* cows_eating_grass.mp4 in Resources */,
+				4250AAE41BCB84FF00DD2EFE /* water_flowing_out_of_gutter.mp4 in Resources */,
+				42DE2B6D1BCADCEA00048AF1 /* VideosList.plist in Resources */,
+				4250AADF1BCB84FF00DD2EFE /* bbq_grilling_meat.mp4 in Resources */,
+				4250AADB1BCB84FF00DD2EFE /* city_view.mp4 in Resources */,
+				4250AAE21BCB84FF00DD2EFE /* motorboat.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4215E0A81BC9B640006FF863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DE2B771BCAE1E600048AF1 /* VideoPlistParser.swift in Sources */,
+				42DE2B7B1BCAE75100048AF1 /* VideoCell.swift in Sources */,
+				4215E0B21BC9B640006FF863 /* VideoListViewController.swift in Sources */,
+				42DE2B7D1BCAEA5F00048AF1 /* VideoHeaderView.swift in Sources */,
+				4215E0B01BC9B640006FF863 /* AppDelegate.swift in Sources */,
+				42DE2B7F1BCAF5EA00048AF1 /* PlayVideoViewController.swift in Sources */,
+				42751AB51BCA2F09003862A8 /* VideoListCollectionViewDataSource.swift in Sources */,
+				42DE2B751BCAE16300048AF1 /* Video.swift in Sources */,
+				42DE2B791BCAE24F00048AF1 /* VideoCategory.swift in Sources */,
+				3550AB721C6BD6AB00C24B2C /* ResourceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4215E0B31BC9B640006FF863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4215E0B41BC9B640006FF863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4215E0B91BC9B640006FF863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4215E0BA1BC9B640006FF863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4215E0BC1BC9B640006FF863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWHomeTheater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.RWHomeTheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4215E0BD1BC9B640006FF863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWHomeTheater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.RWHomeTheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4215E0A71BC9B640006FF863 /* Build configuration list for PBXProject "RWHomeTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4215E0B91BC9B640006FF863 /* Debug */,
+				4215E0BA1BC9B640006FF863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4215E0BB1BC9B640006FF863 /* Build configuration list for PBXNativeTarget "RWHomeTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4215E0BC1BC9B640006FF863 /* Debug */,
+				4215E0BD1BC9B640006FF863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4215E0A41BC9B640006FF863 /* Project object */;
+}

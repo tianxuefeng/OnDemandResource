@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "457FD71C25E764CFAB409ECF025F82B087AE8EE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4B4BAACA98DEB00554F1C47B8448075ADE3181B2" : 0,
+    "457FD71C25E764CFAB409ECF025F82B087AE8EE9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA2BFFDD-6188-4F3A-A690-9A132B357F6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4B4BAACA98DEB00554F1C47B8448075ADE3181B2" : "",
+    "457FD71C25E764CFAB409ECF025F82B087AE8EE9" : "tvt\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RWHomeTheater",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "on-demand-resources\/projects\/starter - tags\/RWHomeTheater.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/raywenderlich\/tvt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "457FD71C25E764CFAB409ECF025F82B087AE8EE9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edekhayser\/UITableView-RowConvenience.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B4BAACA98DEB00554F1C47B8448075ADE3181B2"
+    }
+  ]
+}
